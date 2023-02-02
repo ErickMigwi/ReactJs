@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: navy;
+  align-items: center;
+  height: 90px;
+  
+}
+ ul {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: cursive;
+  font-weight: bold;
+  gap: 30px;
+  color: burlywood;
+}
+ul li a:hover{
+color: chartreuse;
+text-decoration: underline;
+}
+ul li a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  gap: 20px;
+  color: burlywood;
+}
+.rotess li {
+  list-style: none;
+}
+h1{
+  margin-left: 25px;
+}
+#logo{
+  color: burlywood;
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 30px;
+}
